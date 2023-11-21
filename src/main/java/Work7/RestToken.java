@@ -20,7 +20,6 @@ public class RestToken {
                 .then()
                 .log()
                 .body()
-//                .all
                 .extract()
                 .response();
     }
